@@ -2,7 +2,7 @@
   hosts: localhost
   vars:
     name: sivakumar
-    Skills: # It is list type
+    skills: # It is list type
     - DevOPs
     - shell
     - ansible
