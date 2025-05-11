@@ -1,4 +1,4 @@
-- name: loops:
+- name: loops
   hosts: localhost
   tasks:
   - name: print persons
