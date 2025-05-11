@@ -1,5 +1,5 @@
 - name: install and run nginx
-  hosts:web
+  hosts: web
   tasks:
   - name: install nginx package
     ansible.builtin.package:
@@ -8,4 +8,4 @@
   - name: run nginx service
     ansible.builtin.service:
       name: nginx
-      state:started
+      state: started
